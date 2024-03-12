@@ -2,6 +2,7 @@
 Make a robot arm to play piano 
 
 **PLANNING **
+
 week 1:
 
 week 2:
