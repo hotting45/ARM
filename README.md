@@ -22,12 +22,18 @@ week 6:
 Maybe have the ONSHAPE done and have some code put down and have some of it work.
 
 week 7:
+tune the code and make it work fully.
 
 week 8:
+have the onshape fully made and have it all cut out.
 
 week 9:
+have the code runing and maybe have it work with the onshape.
 
 week 10:
+tune the code so that it turns and stops when needed.
 
 week11:
+have the finished project.
+
 ***
