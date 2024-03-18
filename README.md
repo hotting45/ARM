@@ -36,6 +36,9 @@ tune the code so that it turns and stops when needed.
 week11:
 have the finished project.
 
+How it will work:
+The botom will turn and there will be joints that allow it to push down with two servos and the botom will turn with the steper motor.
+
 photos:
 ![WIN_20240318_11_04_51_Pro](https://github.com/hotting45/ARM/assets/143732462/97e5c8e0-3081-4325-adf7-aef03e809bd5)
 
