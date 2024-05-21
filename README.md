@@ -45,9 +45,91 @@ photos:
 
 
 
-#Finished Project
+# Finished Project
+
+### Description & Code Snippets 
+We made a robot arm that plays the piano one key at a time.
+
+```python
+import time
+import board
+import pwmio
+from digitalio import DigitalInOut, Direction, Pull
+from adafruit_motor import servo
+import asyncio
+import keypad
+import digitalio
+from adafruit_motor import stepper
+
+DELAY = 0.01   # Sets the delay time for in-between each step of the stepper motor.
+STEPS = 100    # Sets the number of steps. 100 is half a full rotation for the motor we're using. 
+
+# Set up the digital pins used for the four wires of the stepper motor. 
+coils = (
+    digitalio.DigitalInOut(board.D9),   # A1
+    digitalio.DigitalInOut(board.D10),  # A2
+    digitalio.DigitalInOut(board.D11),  # B1
+    digitalio.DigitalInOut(board.D12),  # B2
+)
+
+# Sets each of the digital pins as an output.
+for coil in coils:
+    coil.direction = digitalio.Direction.OUTPUT
+
+# Creates an instance of the stepper motor so you can send commands to it (using the Adafruit Motor library). 
+motor = stepper.StepperMotor(coils[0], coils[1], coils[2], coils[3], microsteps=None)
+
+motor.onestep()
+
+motor.onestep(direction=stepper.BACKWARD)
+motor.onestep(direction=stepper.FORWARD)
+
+style=stepper.DOUBLE
+       
 
 
+# create a PWMOut object on Pin A2.
+pwm = pwmio.PWMOut(board.D13, duty_cycle=2 ** 15, frequency=50)
+pwm2 = pwmio.PWMOut(board.D8, duty_cycle=2 ** 15, frequency=50)
+
+# Create a servo object, my_servo.
+my_servo1 = servo.Servo(pwm)
+my_servo2 = servo.Servo(pwm2)
+
+
+while True:
+    for step in range(STEPS):
+        motor.onestep(direction=stepper.BACKWARD, style=stepper.DOUBLE)
+        time.sleep(DELAY)
+    
+    for angle in range(0, 180, 5):  # 0 - 180 degrees, 5 degrees at a time.
+        my_servo1.angle = angle
+        my_servo2.angle = angle
+        time.sleep(DELAY)
+   
+    for step in range(STEPS):
+        motor.onestep(style=stepper.DOUBLE)
+        time.sleep(DELAY)
+    for angle in range(0, 180, 5):  # 0 - 180 degrees, 5 degrees at a time.
+        my_servo1.angle = angle
+        my_servo2.angle = angle
+        time.sleep(DELAY)
+
+    for step in range(STEPS):
+        motor.onestep(direction=stepper.BACKWARD, style=stepper.DOUBLE)
+        time.sleep(DELAY)
+            
+    for angle in range(0, 180, 5):  # 0 - 180 degrees, 5 degrees at a time.
+        my_servo1.angle = angle
+        my_servo2.angle = angle
+        time.sleep(DELAY)
+```
+
+### Evidence
+
+### Wiring
+
+### Reflection
 
 
 
