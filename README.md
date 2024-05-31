@@ -129,6 +129,8 @@ while True:
 
 ### Wiring
 
+![image](https://github.com/hotting45/ARM/assets/143732462/3b781aea-064f-4a27-887d-83096beacd6a)
+
 ### Reflection
 
 
