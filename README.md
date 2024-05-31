@@ -139,6 +139,9 @@ while True:
 
 ![image](https://github.com/hotting45/ARM/assets/143732462/3b781aea-064f-4a27-887d-83096beacd6a)
 
+### Problems/Miss cal
+Time management wasn't done very well so we couldn't finish but we were close. Also the coding was a little hard to do at first but I learned that I should work on one peice at a time. The Onshape was going well till we relized that we had to restart because it wouldn't work. So we had to remake the whole thing rethink are plan on how to make it. Which was are down fall because we ran out of time on making it. 
+
 ### Reflection
 
 
