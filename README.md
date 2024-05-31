@@ -142,7 +142,10 @@ while True:
 ### Problems/Miss cal
 Time management wasn't done very well so we couldn't finish but we were close. Also the coding was a little hard to do at first but I learned that I should work on one peice at a time. The Onshape was going well till we relized that we had to restart because it wouldn't work. So we had to remake the whole thing rethink are plan on how to make it. Which was are down fall because we ran out of time on making it. 
 
-### Reflection
+### Reflection/Obituary 
+This project was an extreme test of mental fortitude for both me and my partner. WE often found ourselves struggling with time managment runing out of the classtime necassery to continue with doing the work. The onshape that i was doing was the hardest part for me with the struggle of attempting to keep up with time and also not work myself completely to death every single day of the week. If i where to finsih this again i might try managing the time a little better while doing work you need to make sure to always maintain having constant breaks every now and then. No one can work forever so its really important to maintain a balanced yet effective schedule. I would also put more effort into making sure i ate actual food because one can not work on a stomach ofgraham crackers and coffe. But this even though being rough was still a very fun project that brough me and my partner closer together as freinds becoming almost like brothers. I would also maybe chose an easier method of creating the arm as going complicated doesnt make it better and youre aim really should be to just make something that works efficiantly in the end. This was a solid project and a perfect send off to a perfectly rough year. Thank you mr Miller i hope our paths will cross someday in the future when you have forgotten all about me and i remember you as the only engineering teacher.
+
+"cogito, ergo sum" - René Descartes
 
 ###  Wisdom 
 Work on single parts of code first to not make a mistake.
