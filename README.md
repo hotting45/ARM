@@ -89,22 +89,22 @@ style=stepper.DOUBLE
 
 
 # create a PWMOut object on Pin A2.
-pwm = pwmio.PWMOut(board.D13, duty_cycle=2 ** 15, frequency=50)
+pwm = pwmio.PWMOut(board.D13, duty_cycle=2 ** 15, frequency=50)# pin for servo 
 pwm2 = pwmio.PWMOut(board.D8, duty_cycle=2 ** 15, frequency=50)
 
 # Create a servo object, my_servo.
 my_servo1 = servo.Servo(pwm)
-my_servo2 = servo.Servo(pwm2)
+my_servo2 = servo.Servo(pwm2)# names the servo pwm 
 
 
 while True:
     for step in range(STEPS):
-        motor.onestep(direction=stepper.BACKWARD, style=stepper.DOUBLE)
+        motor.onestep(direction=stepper.BACKWARD, style=stepper.DOUBLE)# runs the stepper motor
         time.sleep(DELAY)
     
     for angle in range(0, 180, 5):  # 0 - 180 degrees, 5 degrees at a time.
         my_servo1.angle = angle
-        my_servo2.angle = angle
+        my_servo2.angle = angle# tells what servo to move 
         time.sleep(DELAY)
    
     for step in range(STEPS):
