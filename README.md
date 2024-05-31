@@ -128,6 +128,12 @@ while True:
 ### Evidence
 
 ### ONSHAPE
+![image](https://github.com/hotting45/ARM/assets/143732418/afa799de-db47-46c3-a928-b255775dd5b8)
+![image](https://github.com/hotting45/ARM/assets/143732418/60fdddc6-0d54-4b6c-bc9e-897e2cd57ee1)
+![image](https://github.com/hotting45/ARM/assets/143732418/48d174ab-925a-47be-b4a1-3a232fbac930)
+![image](https://github.com/hotting45/ARM/assets/143732418/3efb2fbe-cbd2-4807-a1d6-47e166caa8cc)
+![image](https://github.com/hotting45/ARM/assets/143732418/7bb49a5f-0308-4037-bbf1-c2fc6a4541fe)
+![image](https://github.com/hotting45/ARM/assets/143732418/22b2a6a6-608b-40e8-8d85-f77785517e82)
 
 ### Wiring
 
