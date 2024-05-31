@@ -144,7 +144,14 @@ Time management wasn't done very well so we couldn't finish but we were close. A
 
 ### Reflection
 
+###  Wisdom 
+Work on single parts of code first to not make a mistake.
 
+Make sure your onshape works before designing it fully.
+
+Check wiring if your code works fine plus wiring can break a lot of things.
+
+Make sure your bin is clean. 
 
 
 
